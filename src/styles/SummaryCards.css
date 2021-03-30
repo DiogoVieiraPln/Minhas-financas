@@ -1,0 +1,63 @@
+#summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#summary > div {
+  flex: 1;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+
+  position: relative;
+  top: -100px;
+
+  padding: 25px 30px;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+  transition: box-shadow 0.5s;
+}
+
+#summary > div:hover {
+  box-shadow: none;
+  transition: box-shadow 0.5s;
+}
+
+#summary > div + div {
+  margin-left: 30px;
+}
+
+#summary > div h4 {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+#summary > div strong {
+  font-size: 40px;
+  font-weight: 500;
+}
+
+#summary .card-incomes {
+  background-color: #219653;
+  color: #fff;
+}
+
+#summary .card-expenses {
+  background-color: #EB5757;
+  color: #fff;
+}
+
+#summary .card-balance {
+  background-color: #203047;
+  color: #fff;
+}
+
+@media screen and (max-width: 1000px) {
+  #summary > div strong {
+    font-size: 34px;
+  }
+}

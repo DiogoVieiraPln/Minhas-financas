@@ -1,0 +1,66 @@
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 500px;
+  height: 500px;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  outline: none;
+  padding: 0 40px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.modal .container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  height: 500px;
+}
+
+.modal h1 {
+  color: #222;
+  margin-bottom: 20px;
+  font-size: 34px;
+}
+
+.modal form input {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 10px 7px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #CCC;
+  background-color: #f7f7f7;
+  font-size: 16px;
+}
+
+.modal form select {
+  width: 100%;
+  padding: 14px 7px;
+  margin-bottom: 20px;
+  border: 1px solid #CCC;
+  background-color: #f7f7f7;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+}
+
+.modal form button {
+  width: 100%;
+  padding: 0 1.5rem;
+  height: 4rem;
+  background: #0B1923;
+  color: #fff;
+  border-radius: 0.25rem;
+  border: 0;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: filter 0.3s;
+}
+
+.modal form button:hover {
+  filter: brightness(0.9);
+  transition: filter 0.3s;
+}

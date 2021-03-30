@@ -1,0 +1,40 @@
+#header {
+  height: 250px;
+  background-color: #0B1923;
+}
+
+#header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  max-width: 1120px;
+  padding: 40px 20px;
+  margin: 0 auto;
+}
+
+#header .container a.brand {
+  display: flex;
+  align-items: center;
+}
+
+#header .container a.brand img {
+  height: 60px;
+  width: 60px;
+  margin-right: 15px;
+}
+
+#header .container a.brand h1 {
+  font-size: 30px;
+  font-weight: 600;
+  color: #fff;
+}
+
+#header .container button.new-transaction {
+  background-color: #F7D42F;
+  color: #0B1923;
+  padding: 7px 30px;
+  border-radius: 5px;
+  font-weight: 500;
+  border: 0;
+}
